@@ -6,6 +6,11 @@
 }
  /* 1 rem = 16px */
 
+ :root {
+      --gray-800: #1e293b;
+      --gray-600: #475569;
+ }
+
 header {
    background-image: url(./imagens/bg-mobile.png);
    background-size: cover;
@@ -14,6 +19,17 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
+
+   margin-bottom: 3.7rem;
+}
+/* posição dos itens na tela - usamos display: flex;*/
+
+main {
+   padding-inline: 1.5rem;
 }
 
-/* posição dos itens na tela - usamos display: flex;*/
+.descricao h1 {
+   color: var(--gray-800);
+   margin-bottom: 1rem;
+   font-size: 1.5625em;
+}
