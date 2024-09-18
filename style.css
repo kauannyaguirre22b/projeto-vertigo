@@ -4,7 +4,16 @@
    box-sizing: border-box;
    font-family: 'Titillium Web', sans-serif; 
 }
+ /* 1 rem = 16px */
 
 header {
    background-image: url(./imagens/bg-mobile.png);
+   background-size: cover;
+   height: 8.375rem;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+/* posição dos itens na tela - usamos display: flex;*/
